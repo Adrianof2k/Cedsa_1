@@ -1,0 +1,73 @@
+* {
+    margin: 10;
+    box-sizing: border-box;
+}
+
+BODY {
+   color:rgb(157, 202, 157);
+   background-color: rgb(44, 47, 50); 
+
+}
+P {color:rgb(74, 11, 11); 
+   font-size:20px;
+   font-family:Courier;
+   font-weight:bold;
+   font-style:italic;
+   line-height:30px;
+   letter-spacing:5px;
+   text-decoration:underline;
+   text-transform:capitalize;
+   text-align:left;
+   text-indent:30px;
+   border-width:2px;
+   border-color:blue;
+   border-style:solid;
+   border-radius:5px;
+   background-color: rgb(121, 129, 137);
+  }
+h1{
+   color:rgb(91, 50, 165);
+   background-color: rgb(148, 153, 179);
+   border-style:solid;
+   border-radius:5px;
+   width: 100%;
+   text-decoration:underline;
+   text-align:center;
+}
+h2
+   {
+   width: 100%;
+   border-style:solid;
+   border-radius:5px;
+   background-color: rgb(121, 129, 137);
+   text-decoration:underline;
+   text-align:center;
+}
+ul
+{
+   color:rgb(200, 197, 206);
+   border-width:2px;
+   border-color:rgb(3, 3, 36);
+   border-style:solid;
+   border-radius:5px;
+   background-color: rgb(121, 129, 137);
+   background-image: url(../Media/praksh.jpg);  
+   background-attachment: fixed;
+   background-repeat: repeat;
+      
+}
+  table {
+  width: 15%;
+
+}
+
+th, td {
+  border: 3px solid #270404;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #101547;
+}
+
