@@ -1,5 +1,7 @@
 
+/* Importando otra fuente desde google apis*/
    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Usando la fuente en todo el documento*/
 * {
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
@@ -9,11 +11,14 @@
     font-variation-settings: "wdth" 100;
     margin: 10;
     }
-
-BODY {
+/* definiendo el body*/
+body {
    color:rgb(157, 202, 157);
    background-color: rgb(44, 47, 50); 
-
+   position: relative;
+   min-height: 100vh;
+   padding-bottom: 4.5rem;
+/* definiendo el estilos de los parrafos*/
 }
 P {color:rgb(74, 11, 11); 
    font-size:20px;
@@ -32,6 +37,7 @@ P {color:rgb(74, 11, 11);
    border-radius:5px;
    background-color: rgb(121, 129, 137);
   }
+/* definiendo el estilos de los h1*/  
 h1{
    color:rgb(91, 50, 165);
    background-color: rgb(148, 153, 179);
@@ -41,6 +47,7 @@ h1{
    text-decoration:underline;
    text-align:center;
 }
+/* definiendo el estilos de los h2*/  
 h2
    {
    width: 100%;
@@ -50,6 +57,7 @@ h2
    text-decoration:underline;
    text-align:center;
 }
+/* definiendo el estilos de las listas desordenadas*/  
 ul
 {
    color:rgb(198, 193, 193);
@@ -61,7 +69,7 @@ ul
    background-image: url(../Media/praksh.jpg);  
    background-attachment: fixed;
    background-repeat: repeat;
-      
+/* definiendo el estilos de las tablas*/      
 }
   table {
   width: 15%;
@@ -77,17 +85,14 @@ th, td {
 th {
   background-color: #101547;
 }
-body {
-    position: relative;
-    min-height: 100vh;
-    padding-bottom: 4.5rem;
-}
+/* definiendo el estilos del pie de pagina*/
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 4.5rem;
 }
+/* definiendo la posicion del icono incorporado para dar el enlace a la guia*/
 .fa-brands {
     margin: 1%;
     font-size: 4rem;
